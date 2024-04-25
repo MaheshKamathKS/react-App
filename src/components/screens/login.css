@@ -1,0 +1,36 @@
+.login-form {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    /* background-color: #f9f9f9; */
+}
+.xx{
+    padding: 70px;
+}
+.full-screen {
+  height: 100vh;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form button {
+    width: 100%;
+}
+
+.login-form .mt-3 {
+    text-align: center;
+}
+
+.login-form .alert {
+    margin-top: 20px;
+}

@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white; /* Change background color to white */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black; /* Change text color to black for better contrast */
 }
 
 .App-link {
@@ -35,4 +35,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.crd:hover {
+  transition: 0.2s ease-out;
+  box-shadow: 10px 17px 20px rgba(0, 0, 0, 0.5);
+}
+.bg-custom {
+  background-color: #0F1111; /* Your desired hexadecimal color */
 }
